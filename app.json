@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "tp1-mobile-programming",
-    "slug": "tp1-mobile-programming",
+    "name": "tp2-mobile-programming",
+    "slug": "tp2-mobile-programming",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rafiialgh.tp2mobileprogramming"
     },
     "android": {
       "adaptiveIcon": {
@@ -26,6 +27,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "77244157-4c6a-4683-a1fc-577ebd7a5bf7"
+      }
     }
   }
 }
